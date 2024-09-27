@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Hellow, { SubmitB, InputField } from './hellow.js';  
 
 function App() {
   return (
@@ -9,9 +10,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button>
-          hihi
-        </button>
+        <Hellow />    
+        <InputField />
+        <br/>
+        <SubmitB />   
         <a
           className="App-link"
           href="https://reactjs.org"
